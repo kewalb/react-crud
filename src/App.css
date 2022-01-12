@@ -13,3 +13,7 @@
   font-weight: 500;
 }
 
+/* list card styles */
+.list__card{
+    margin: 20px;
+}
