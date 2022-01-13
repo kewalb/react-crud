@@ -22,7 +22,7 @@ function Edit() {
       setImage(data.Image);
     })
     .catch((error) => console.log(error));
-  }, [])
+  })
 
   const handleSubmit = () => {
     const car = {
