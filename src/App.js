@@ -8,16 +8,6 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Create />
-          </Route>
-          <Route path="/list">
-            <List />
-          </Route>
-        </Switch>
-      </Router>
     </div>
   );
 }
